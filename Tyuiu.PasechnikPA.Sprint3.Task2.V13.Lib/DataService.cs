@@ -18,6 +18,7 @@ namespace Tyuiu.PasechnikPA.Sprint3.Task2.V13.Lib
             {
                 SumSeries = SumSeries + (((Math.Pow(value,startValue))+(2/(startValue+1)))*(Math.Sin(value)));
                 startValue++;
+
             } while (startValue <= stopValue);
             return Math.Round(SumSeries, 3);
         }
