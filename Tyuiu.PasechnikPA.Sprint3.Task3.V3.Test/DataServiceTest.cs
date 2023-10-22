@@ -17,6 +17,7 @@ namespace Tyuiu.PasechnikPA.Sprint3.Task3.V3.Test
             char chr ='f';
             double res = ds.GetMinCharCount(str, chr);
             int wait = 6;
+
             Assert.AreEqual(wait, res);
 
 
