@@ -44,7 +44,7 @@ namespace Tyuiu.PasechnikPA.Sprint3.Task1.V24
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadLine();
         }
     }
